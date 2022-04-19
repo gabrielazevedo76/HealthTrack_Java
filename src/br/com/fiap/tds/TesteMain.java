@@ -1,10 +1,18 @@
 package br.com.fiap.tds;
 import java.util.Date;
+/**
+ * @author Ellen Gomes
+ * @author Gabriel Almeida
+ * @author Pablo Witt
+ * @author Rafael Costa
+ * @version 1.0
+ *
+ * */
 
 public class TesteMain {
 	public static void main(String[]args) {
 		/**
-		 * Instancia da classe usuário
+		 * Instancia da classe usuario
 		 */
 		Usuario user1 = new Usuario();
 		Date nascimento = new Date();
@@ -29,7 +37,7 @@ public class TesteMain {
 		exercicio1.name = "Pular corda";
 		treinamento1.adicionarExercicio(exercicio1);
 		treinamento1.editarDuracao(dataExercicio);
-		treinamento1.editarIntensidade("Média");
+		treinamento1.editarIntensidade("Media");
 		treinamento1.visualizarTreinamento();
 		treinamento1.deletarTreinamento();
 		
