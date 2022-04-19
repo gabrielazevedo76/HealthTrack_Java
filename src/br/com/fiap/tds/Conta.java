@@ -26,9 +26,9 @@ public class Conta {
 	/** 
 	 * Visualizar conta pesquisada 
 	 */
-	public String visualizarConta() {
-		return "Conta [email=" + email + ", senha=" + senha + ", username=" + username + ", idioma=" + idioma
-				+ ", usuario=" + "]";
+	public void visualizarConta() {
+		System.out.println("Conta [email=" + email + ", senha=" + senha + ", username=" + username + ", idioma=" + idioma
+				+ ", usuario=" + "]");
 	}
 	
 	/** 

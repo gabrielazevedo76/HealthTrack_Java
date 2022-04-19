@@ -31,10 +31,10 @@ public class Peso {
 	}
 	/** 
 	* Visualizar usuario pesquisado
-	* @return todos os atributos da classe 
+	* Retorna todos os atributos da classe 
 	*/
-	public String visualizarPeso() {
-		return "Peso [data=" + data + ", valor=" + valor + "]";
+	public void visualizarPeso() {
+		System.out.println("Peso [data=" + data + ", valor=" + valor + "]");
 	}
 	
 	// Metodos Especiais - Getters/Setters

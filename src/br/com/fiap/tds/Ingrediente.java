@@ -21,7 +21,7 @@ public class Ingrediente {
 	// Metodos Personalizados
 		/** 
 		 * Visualizar ingrediente
-		 * @return todos os atributos da classe 
+		 * Retorna todos os atributos da classe 
 		 */
 	public void visualizarIngrediente() {
 		System.out.print("Ingrediente [peso=" + peso + ", quantidade=" + quantidade + ", nome=" + nome + "]");

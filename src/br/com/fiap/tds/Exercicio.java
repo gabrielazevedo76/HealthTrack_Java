@@ -13,10 +13,10 @@ public class Exercicio {
 	// Metodos Personalizados
 	/** 
 	* Visualizar exercicio
-	* @return todos os atributos da classe 
+	* Retorna todos os atributos da classe 
 	*/
-	public String visualizar() {
-		return "Exercicio [name=" + name + "]";
+	public void visualizar() {
+		System.out.println("Exercicio [name=" + name + "]");
 	}
 	
 	/** METODO AINDA NAO IMPLEMENTADO (integracao com Banco de Dados - CRUD) - Criar novo Exercicio

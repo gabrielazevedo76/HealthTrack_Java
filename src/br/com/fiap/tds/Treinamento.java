@@ -2,6 +2,9 @@ package br.com.fiap.tds;
 import java.util.Date;
 import java.util.ArrayList;
 
+/** 
+ * Treinamento do Usuario
+ */
 public class Treinamento {
 	//Atributos
 	/** 
@@ -71,11 +74,11 @@ public class Treinamento {
 
 	}
 	/** Metodo para visualizar o treinamento 
-	 * @return todos os atributos da classe
+	 *  Retorna todos os atributos da classe
 	 */
-	public String visualizarTreinamento() {
-		return "Treinamento [duracao=" + duracao + ", intensidade=" + intensidade + ", totalCalorias=" + totalCalorias
-				+ "]";
+	public void visualizarTreinamento() {
+		System.out.println("Treinamento [duracao=" + duracao + ", intensidade=" + intensidade + ", totalCalorias=" + totalCalorias
+				+ "]");
 	}
 
 	// Metodos Especiais - Getters/Setters

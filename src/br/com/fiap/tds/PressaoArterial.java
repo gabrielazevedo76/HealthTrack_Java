@@ -42,9 +42,9 @@ public class PressaoArterial {
 	/** 
 	 * Visualizar pressao arterial 
 	 */
-	public String visualizarPressaoArterial() {
-		return "PressaoArterial [data=" + data + ", sistolica=" + sistolica + ", distolica=" + distolica + ", pico="
-				+ pico + "]";
+	public void visualizarPressaoArterial() {
+		System.out.println("PressaoArterial [data=" + data + ", sistolica=" + sistolica + ", distolica=" + distolica + ", pico="
+				+ pico + "]");
 	}
 	/** 
      * METODO AINDA NAO IMPLEMENTADO (integracao com Banco de Dados) - Verifica se houve pico de pressao (hipertensao)

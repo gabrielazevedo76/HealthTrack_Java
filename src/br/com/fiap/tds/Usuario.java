@@ -56,11 +56,11 @@ public class Usuario {
 	// Metodos Personalizados
 	/** 
 	 * Visualizar usuario pesquisado
-	 * @return todos os atributos da classe 
+	 * Retorna todos os atributos da classe 
 	 */
-	public String visualizarUsuario() {
-		return "Usuario [nome=" + nome + ", idade=" + idade + ", genero=" + genero + ", profissao=" + profissao
-				+ ", altura=" + altura + "]";
+	public void visualizarUsuario() {
+		System.out.println("Usuario [nome=" + nome + ", idade=" + idade + ", genero=" + genero + ", profissao=" + profissao
+				+ ", altura=" + altura + "]");
 	}
 	/** 
 	 * METODO AINDA NAO IMPLEMENTADO (integracao com Banco de Dados - CRUD) - Adiciona um Usuario com requisitos minimos

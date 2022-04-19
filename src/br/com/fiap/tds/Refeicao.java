@@ -48,11 +48,11 @@ public class Refeicao {
 	
 	// Metodos Personalizados
 	/**Metodo para visualizar a refeicao
-	 * @return todos os atributos da classe
+	 * Retorna todos os atributos da classe
 	 */
-	public String visualizarRefeicao() {
-		return "Refeicao [carboidrato=" + carboidrato + ", acucar=" + acucar + ", proteina=" + proteina + ", gordura="
-				+ gordura + ", peso=" + peso + ", nome=" + nome + "]";
+	public void visualizarRefeicao() {
+		System.out.println( "Refeicao [carboidrato=" + carboidrato + ", acucar=" + acucar + ", proteina=" + proteina + ", gordura="
+				+ gordura + ", peso=" + peso + ", nome=" + nome + "]");
 	}
 
 	/** 
@@ -76,7 +76,7 @@ public class Refeicao {
 	
 	/** 
      * METODO AINDA NAO IMPLEMENTADO - Adicionar Ingrediente na Refeicao
-     * @param Ingrediente da Refeicao
+     * @param ingrediente da Refeicao
      * @see Ingrediente
      */
 	public void adicionarIngrediente(Ingrediente ingrediente) {

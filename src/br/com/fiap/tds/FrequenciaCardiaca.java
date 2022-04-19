@@ -38,7 +38,7 @@ public class FrequenciaCardiaca {
 	}
 	/** 
 	 * Visualizar frequencia cardiaca do Usuario
-	 * @return todos os atributos da classe 
+	 * Retorna todos os atributos da classe 
 	 */
 	public String visualizar() {
 		return "FrequenciaCardiaca [data=" + data + ", valor=" + valor + ", arritmia=" + arritmia + "]";
