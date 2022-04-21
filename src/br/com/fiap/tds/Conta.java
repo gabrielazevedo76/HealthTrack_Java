@@ -21,7 +21,27 @@ public class Conta {
 	 * Idioma da Conta escolhido pelo Usuario 
 	 */
 	private String idioma;
+	/** 
+	 * Tipo de Conta 
+	 */
+	private String tipoDeConta;
 	
+	
+	//Construtores
+	public Conta(String email, String senha, String tipoDeConta){
+		this.email = email;
+		this.senha = senha;
+		this.tipoDeConta = tipoDeConta;
+	}
+	
+	public Conta(String email, String senha, String tipoDeConta, String username, String idioma){
+		this.email = email;
+		this.senha = senha;
+		this.tipoDeConta = tipoDeConta;
+		this.username = username;
+		this.idioma = idioma;
+	}
+
 	// Metodos Personalizados
 	/** 
 	 * Visualizar conta pesquisada 
@@ -129,6 +149,14 @@ public class Conta {
 
 	public void setIdioma(String idioma) {
 		this.idioma = idioma;
+	}
+	
+	public String getTipoDeConta() {
+		return tipoDeConta;
+	}
+
+	public void setTipoDeConta(String tipoDeConta) {
+		this.tipoDeConta = tipoDeConta;
 	}
 
 	

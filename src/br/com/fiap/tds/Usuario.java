@@ -31,7 +31,7 @@ public class Usuario {
 	/** 
 	 * Referencia classe Conta - Usuario nao pode ser criado antes de cadastrar Conta 
 	 */
-	private Conta conta = new Conta();
+	private Conta conta = new Conta("email@email.com", "password", "gratuita");
 	/** 
 	 * Referencia classe Treinamento 
 	 */
