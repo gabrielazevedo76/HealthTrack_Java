@@ -14,23 +14,40 @@ public class ContaGratuita extends Conta{
 		this.qntSemanalExerc = qntSemanalExerc;
 	}
 	
-	
+	/** 
+	 * Upgrade da conta gratuita para a conta premium
+	 */
 	public void upgradeConta() {
 		System.out.println("Upgrade realizado com sucesso!");
 	}
 	
+	/** 
+	 * Iniciar o periodo de teste do aplicativo 
+	 */
 	public void iniciarTrial30Dias() {
 		System.out.println("Trial de 30 dias iniciado com sucesso!");
 	}
 	
+	/** 
+	 * Verificar se a quantidade de refeicoes e maior que 0
+	 */
 	public boolean verificarQntRef(int qntSemanalRef) {
-		
-		return true;
+		if(qntSemanalRef == 0 ) {
+			return false;
+		}else {
+			return true;
+		}
 	}
 	
+	/** 
+	 * Verificar se a quantidade de exercicios e maior que 0
+	 */
 	public boolean verificarQntExerc(int qntSemanalExerc) {
-		
-		return true;
+		if(qntSemanalExerc == 0) {
+			return false;
+		}else {
+			return true;			
+		}
 	}
 	
 	// Metodos Especiais - Getters/Setters
